@@ -15,6 +15,7 @@ public class StudentManager {
         System.out.println("2. Remove student");
         System.out.println("3. View all students");
         System.out.println("4. Exit");
+        System.out.println("Please enter number of option you want to use above:");
 
         String choice = scanner.nextLine();
 

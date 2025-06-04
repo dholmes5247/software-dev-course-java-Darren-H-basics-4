@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13f8ccd-818d-4d2e-a680-214593580794" name="Changes" comment="Just a routine to see if working">
+    <list default="true" id="b13f8ccd-818d-4d2e-a680-214593580794" name="Changes" comment="should be complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StudentManager.java" afterDir="false" />
     </list>
@@ -69,7 +69,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="CollectionExerciseTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionExerciseTests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="software-dev-course-java-basics-4" />
       <extension name="coverage">
         <pattern>
@@ -79,6 +79,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.CollectionExerciseTests" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749067360053</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="should be complete">
+      <option name="closed" value="true" />
+      <created>1749069312958</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749069312958</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +178,7 @@
     <MESSAGE value="Added collection choice exercises." />
     <MESSAGE value="Added example exercise and improved instructions." />
     <MESSAGE value="Just a routine to see if working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Just a routine to see if working" />
+    <MESSAGE value="should be complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="should be complete" />
   </component>
 </project>
