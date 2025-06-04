@@ -1,5 +1,6 @@
 package org.example;
 
+import java.sql.SQLOutput;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -36,6 +37,12 @@ public class StudentManager {
         // refer to mainMenu() for an example)
         // Add the student to the list
 
+        System.out.println("Please enter a new student name: ");
+        String studentName = scanner.nextLine();
+
+        students.add(studentName);
+        System.out.println(studentName + " has been  added!");
+
         mainMenu();
     }
 
@@ -44,12 +51,27 @@ public class StudentManager {
         // Use the contains method to check if the student entered is in the list
         // If so, remove it, if not, print "Student not found."
 
+        System.out.println("Please enter a student's name to be removed?");
+        String deleteStudent = scanner.nextLine();
+
+        if (students.contains(deleteStudent)) {
+            students.remove(deleteStudent);
+            System.out.println(deleteStudent + " has been deleted.");
+        } else {
+            System.out.println("We do not currently have that student");
+        }
+
         mainMenu();
     }
 
     public void viewStudents() {
         // Loop through the list of students and print each one
         // (Use a for-each loop!)
+        for (String student : students) {
+            System.out.println(student);
+        }
+
+
         mainMenu();
     }
 }
