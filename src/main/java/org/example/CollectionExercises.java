@@ -25,7 +25,7 @@ public class CollectionExercises {
         // Use a loop to set every element to "apple"
         // Replace the line below with your implementation
         String [] fruits = new String[size];
-        for (int i = 0; i< size; i++) {
+        for (int i = 0; i < size; i++) {
             fruits[i] = "apple";
         }
         return fruits;
